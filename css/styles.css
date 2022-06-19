@@ -3,6 +3,7 @@
     --basic-color: #FFFFFF;
     --accent-color: #2196F3;
     --accent-background-color:#F5F4FA;
+    --footer-background-color: #2F303A:
 
 }
 
@@ -79,7 +80,7 @@
     line-height: 1.364;
     letter-spacing: 0.06em;
     text-align: center;
-    text-transform: uppercase
+    text-transform: uppercase;
     
 }
 
@@ -195,7 +196,7 @@
 
 /* footer */
 .footer{
-    background-color: #2F303A;
+    background-color: var(--footer-background-color);
 }
 .location{
     font-style: normal;
