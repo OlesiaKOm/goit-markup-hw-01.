@@ -113,6 +113,7 @@
 .description-title{
     color: var(--title-color);    
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.143;
     text-transform: uppercase;
     letter-spacing: 0.03em;
@@ -120,7 +121,6 @@
 }
 
 .about-discription{
-    font-size: 14px;
     line-height: 1.714;    
     
 }
@@ -201,6 +201,10 @@
 .footer{
     background-color: var(--footer-background-color);
 }
+.logo-color-two{
+    color: var(--basic-color);
+}
+
 .location{
     font-style: normal;
     color: var(--basic-color);
