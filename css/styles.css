@@ -1,9 +1,10 @@
 :root{
     --title-color: #212121;
+    --text-color:#757575;
     --basic-color: #FFFFFF;
     --accent-color: #2196F3;
     --accent-background-color:#F5F4FA;
-    --footer-background-color: #2F303A:
+    --footer-background-color: #2F303A;
 
 }
 
@@ -12,7 +13,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
-    color:#757575;
+    color:var(--text-color);
     background-color: var(--basic-color);
 }
 
@@ -60,7 +61,9 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    color:var(--text-color);
+    text-decoration: none;
 }
 
 .current{
@@ -210,5 +213,6 @@
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.714;
+    text-decoration: none;
         
 }
