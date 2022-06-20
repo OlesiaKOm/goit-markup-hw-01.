@@ -189,13 +189,15 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-decoration:none;
    }
 
    .progect-kind{
+    color: var(--text-color);
     font-size: 16px;
     line-height: 1.875;
-   
-   }
+    text-decoration: none;
+}
 
 /* footer */
 .logo-color-two {
